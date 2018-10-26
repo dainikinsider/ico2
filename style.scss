@@ -1,0 +1,320 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?bde4qi');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?bde4qi#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?bde4qi') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?bde4qi') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?bde4qi##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dii-github-alt {
+  &:before {
+    content: $dii-github-alt; 
+  }
+}
+.dii-file-pdf-o {
+  &:before {
+    content: $dii-file-pdf-o; 
+  }
+}
+.dii-file-word-o {
+  &:before {
+    content: $dii-file-word-o; 
+  }
+}
+.dii-file-excel-o {
+  &:before {
+    content: $dii-file-excel-o; 
+  }
+}
+.dii-file-powerpoint-o {
+  &:before {
+    content: $dii-file-powerpoint-o; 
+  }
+}
+.dii-copyright {
+  &:before {
+    content: $dii-copyright; 
+  }
+}
+.dii-at {
+  &:before {
+    content: $dii-at; 
+  }
+}
+.dii-toggle-off {
+  &:before {
+    content: $dii-toggle-off; 
+  }
+}
+.dii-toggle-on {
+  &:before {
+    content: $dii-toggle-on; 
+  }
+}
+.dii-calendar-plus-o {
+  &:before {
+    content: $dii-calendar-plus-o; 
+  }
+}
+.dii-calendar-minus-o {
+  &:before {
+    content: $dii-calendar-minus-o; 
+  }
+}
+.dii-calendar-times-o {
+  &:before {
+    content: $dii-calendar-times-o; 
+  }
+}
+.dii-calendar-check-o {
+  &:before {
+    content: $dii-calendar-check-o; 
+  }
+}
+.dii-address-book {
+  &:before {
+    content: $dii-address-book; 
+  }
+}
+.dii-comments-o {
+  &:before {
+    content: $dii-comments-o; 
+  }
+}
+.dii-comment-o {
+  &:before {
+    content: $dii-comment-o; 
+  }
+}
+.dii-chevron-right {
+  &:before {
+    content: $dii-chevron-right; 
+  }
+}
+.dii-chevron-left {
+  &:before {
+    content: $dii-chevron-left; 
+  }
+}
+.dii-chevron-down {
+  &:before {
+    content: $dii-chevron-down; 
+  }
+}
+.dii-chevron-up {
+  &:before {
+    content: $dii-chevron-up; 
+  }
+}
+.dii-close {
+  &:before {
+    content: $dii-close; 
+  }
+}
+.dii-lock {
+  &:before {
+    content: $dii-lock; 
+  }
+}
+.dii-envelope {
+  &:before {
+    content: $dii-envelope; 
+  }
+}
+.dii-search2 {
+  &:before {
+    content: $dii-search2; 
+  }
+}
+.dii-heart1 {
+  &:before {
+    content: $dii-heart1; 
+  }
+}
+.dii-trash {
+  &:before {
+    content: $dii-trash; 
+  }
+}
+.dii-paperplane1 {
+  &:before {
+    content: $dii-paperplane1; 
+  }
+}
+.dii-music1 {
+  &:before {
+    content: $dii-music1; 
+  }
+}
+.dii-megaphone {
+  &:before {
+    content: $dii-megaphone; 
+  }
+}
+.dii-clip {
+  &:before {
+    content: $dii-clip; 
+  }
+}
+.dii-world {
+  &:before {
+    content: $dii-world; 
+  }
+}
+.dii-paperplane {
+  &:before {
+    content: $dii-paperplane; 
+  }
+}
+.dii-message-square {
+  &:before {
+    content: $dii-message-square; 
+  }
+}
+.dii-reddit {
+  &:before {
+    content: $dii-reddit;     
+    color: #ff4500;
+  }
+}
+.dii-polar-bear {
+  &:before {
+    content: $dii-polar-bear; 
+  }
+}
+.dii-bookmark {
+  &:before {
+    content: $dii-bookmark; 
+  }
+}
+.dii-blogger {
+  &:before {
+    content: $dii-blogger; 
+  }
+}
+.dii-tumbler {
+  &:before {
+    content: $dii-tumbler; 
+  }
+}
+.dii-share {
+  &:before {
+    content: $dii-share; 
+  }
+}
+.dii-pintrest {
+  &:before {
+    content: $dii-pintrest; 
+  }
+}
+.dii-google-plus {
+  &:before {
+    content: $dii-google-plus; 
+  }
+}
+.dii-linkedin {
+  &:before {
+    content: $dii-linkedin; 
+  }
+}
+.dii-twitter {
+  &:before {
+    content: $dii-twitter; 
+  }
+}
+.dii-instagram {
+  &:before {
+    content: $dii-instagram; 
+  }
+}
+.dii-whatsapp {
+  &:before {
+    content: $dii-whatsapp; 
+  }
+}
+.dii-facebook {
+  &:before {
+    content: $dii-facebook; 
+  }
+}
+.dii-music {
+  &:before {
+    content: $dii-music; 
+  }
+}
+.dii-files-empty {
+  &:before {
+    content: $dii-files-empty; 
+  }
+}
+.dii-file-music {
+  &:before {
+    content: $dii-file-music; 
+  }
+}
+.dii-file-play {
+  &:before {
+    content: $dii-file-play; 
+  }
+}
+.dii-file-video {
+  &:before {
+    content: $dii-file-video; 
+  }
+}
+.dii-price-tag {
+  &:before {
+    content: $dii-price-tag; 
+  }
+}
+.dii-price-tags {
+  &:before {
+    content: $dii-price-tags; 
+  }
+}
+.dii-trophy {
+  &:before {
+    content: $dii-trophy; 
+  }
+}
+.dii-leaf {
+  &:before {
+    content: $dii-leaf; 
+  }
+}
+.dii-bookmark1 {
+  &:before {
+    content: $dii-bookmark1; 
+  }
+}
+.dii-bookmarks {
+  &:before {
+    content: $dii-bookmarks; 
+  }
+}
+.dii-heart {
+  &:before {
+    content: $dii-heart; 
+  }
+}
+
